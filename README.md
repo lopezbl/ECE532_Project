@@ -20,6 +20,6 @@ Load Data Notebook: [Load Data.ipynb](https://github.com/lopezbl/ECE532_Project/
 
 Based on the [project description](https://github.com/lopezbl/ECE532_Project/blob/main/Project%20Description.pdf), a [project proposal](https://github.com/lopezbl/ECE532_Project/blob/main/Project%20Proposal.pdf) was made. The dataset chosen involves classifying if an asteroid is hazerdous or safe based on 39 features. As a result feature selection will be the main task.
 
-Project Description: [project description](https://github.com/lopezbl/ECE532_Project/blob/main/Project%20Description.pdf)
+Project Description: [Project Description.pdf](https://github.com/lopezbl/ECE532_Project/blob/main/Project%20Description.pdf)
 
-Project Proposal: [project proposal](https://github.com/lopezbl/ECE532_Project/blob/main/Project%20Proposal.pdf)
+Project Proposal: [Project Proposal.pdf](https://github.com/lopezbl/ECE532_Project/blob/main/Project%20Proposal.pdf)
