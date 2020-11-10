@@ -11,5 +11,7 @@ Least Sqaured Data: [Least Squared.ipynb](https://github.com/lopezbl/ECE532_Proj
 The data file and the corresponding code to load the data has been uploaded. The Load Data.ipynb removes unnecessary columns such as ID numbers and dates of discovery/calculations and columns that have repeat information in different units/scales. This brought the number of features from 39 to 19. A new nasa_sort.csv was created for later use from the selected features. Using this csv, then the study of the three different algorithms can be conducted.
 
 Original Data: [nasa.csv](https://github.com/lopezbl/ECE532_Project/blob/main/nasa.csv)
+
 Sorted Data: [nasa_sort.csv](https://github.com/lopezbl/ECE532_Project/blob/main/nasa_sort.csv)
+
 Load Data Notebook: [Load Data.ipynb](https://github.com/lopezbl/ECE532_Project/blob/main/Load%20Data.ipynb)
