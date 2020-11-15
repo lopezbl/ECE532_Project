@@ -8,15 +8,15 @@ Least Sqaured Data: [Least Squared.ipynb](https://github.com/lopezbl/ECE532_Proj
 
 ### 11/02/2020
 
-The [nasa.csv](https://github.com/lopezbl/ECE532_Project/blob/main/nasa.csv) has been loaded and preprocessed. The [Load Data.ipynb](https://github.com/lopezbl/ECE532_Project/blob/main/Load%20Data.ipynb) removes unnecessary columns such as ID numbers and dates of discovery/calculations and columns that have repeat information in different units/scales. This brought the number of features from 39 to 19. A [nasa_sort_all.csv](https://github.com/lopezbl/ECE532_Project/blob/main/nasa_sort.csv) was created and has all of the data with the 19 features. From this, the [test_data.csv](https://github.com/lopezbl/ECE532_Project/blob/main/test_data.csv) was created from 10% of the data for final testing of the three algorithims. The remaining 90% of the data was places in [train_data.csv](https://github.com/lopezbl/ECE532_Project/blob/main/train_data.csv) for training of the three algorithims.
+The [nasa.csv](https://github.com/lopezbl/ECE532_Project/blob/main/nasa.csv) has been loaded and preprocessed. The [Load Data.ipynb](https://github.com/lopezbl/ECE532_Project/blob/main/Load%20Data.ipynb) removes unnecessary columns such as ID numbers and dates of discovery/calculations and columns that have repeat information in different units/scales. This brought the number of features from 39 to 19. A [nasa_sort_all.csv](https://github.com/lopezbl/ECE532_Project/blob/main/nasa_sort.csv) was created and has all of the data with the 19 features. From this, the [nasa_test.csv](https://github.com/lopezbl/ECE532_Project/blob/main/nasa_test.csv) was created from 10% of the data for final testing of the three algorithims. The remaining 90% of the data was places in [nasa_train.csv](https://github.com/lopezbl/ECE532_Project/blob/main/nasa_train.csv) for training of the three algorithims.
 
 Original Data: [nasa.csv](https://github.com/lopezbl/ECE532_Project/blob/main/nasa.csv)
 
 Sorted Data: [nasa_sort_all.csv](https://github.com/lopezbl/ECE532_Project/blob/main/nasa_sort.csv)
 
-Test Data = [test_data.csv](https://github.com/lopezbl/ECE532_Project/blob/main/test_data.csv)
+Test Data = [nasa_test.csv](https://github.com/lopezbl/ECE532_Project/blob/main/nasa_test.csv)
 
-Train Data = [train_data.csv](https://github.com/lopezbl/ECE532_Project/blob/main/train_data.csv)
+Train Data = [nasa_train.csv](https://github.com/lopezbl/ECE532_Project/blob/main/nasa_train.csv)
 
 Load Data Notebook: [Load Data.ipynb](https://github.com/lopezbl/ECE532_Project/blob/main/Load%20Data.ipynb)
 
