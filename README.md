@@ -27,9 +27,9 @@ Original Data: [nasa.csv](https://github.com/lopezbl/ECE532_Project/blob/main/na
 
 Filtered Data: [nasa_filt.csv](https://github.com/lopezbl/ECE532_Project/blob/main/nasa_filt.csv)
 
-Test Data = [nasa_test.csv](https://github.com/lopezbl/ECE532_Project/blob/main/nasa_test.csv)
+Test Data: [nasa_test.csv](https://github.com/lopezbl/ECE532_Project/blob/main/nasa_test.csv)
 
-Train Data = [nasa_train.csv](https://github.com/lopezbl/ECE532_Project/blob/main/nasa_train.csv)
+Train Data: [nasa_train.csv](https://github.com/lopezbl/ECE532_Project/blob/main/nasa_train.csv)
 
 Load Data Notebook: [Load Data.ipynb](https://github.com/lopezbl/ECE532_Project/blob/main/Load%20Data.ipynb)
 
