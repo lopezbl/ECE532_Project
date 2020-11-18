@@ -1,5 +1,11 @@
 # Updates
 
+### 11/17/2020
+
+A proejct update was submitted with progess made thus far and a revised timeline for completion. 
+
+Project Update 1: [Project Update 1.pdf](https://github.com/lopezbl/ECE532_Project/blob/main/Project%20Update%201.pdf)
+
 ### 11/16/2020
 
 Using [nasa_train.csv](https://github.com/lopezbl/ECE532_Project/blob/main/nasa_train.csv) and the [Least Squared SMOTE.ipynb](https://github.com/lopezbl/ECE532_Project/blob/main/Least%20Squared%20SMOTE.ipynb), the least squared algorithm along with SMOTE was used to see which features were the most important. Using all the features for training on the expanded data set and then evaluating on the original data, the classification error was 13.7%. This is higher than just using least squared, but the accuracy of the hazardous case improved. The same method of ranking the features by their impact on the expected error was used. This technique concluded there were 5 features that allowed for a classification error of 13.3% which means the other features had little to no impact on the classification. The 5 features are "Absolute Magnitude", "Minimum Orbit Intersection", "Semi Major Axis", "Perihelion Distance", and "Aphelion Dist". The confusion matrix shows an accuracy of 99.7% for the hazardous cases and 84.1% for the nonhazardous class. The use of SMOTE increased the overall error but balanced the accuracy of the models.
