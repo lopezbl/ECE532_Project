@@ -1,5 +1,23 @@
 # Updates
 
+#### 12/05/2020
+
+The final testing notebook, [Final Testing.ipynb](https://github.com/lopezbl/ECE532_Project/blob/main/Final%20Testing.ipynb), has been put together for the three algorithims. This summarizies the key results and reccomends the neural network for future classification uisng the "Absolute Magnitude" and "Minimum Orbit Intersection" as the only features. 
+
+Final Testting Notebook: [Final Testing.ipynb](https://github.com/lopezbl/ECE532_Project/blob/main/Final%20Testing.ipynb)
+
+### 12/04/2020
+
+In the earlier algorithms, it was discovered there were 2-3 features that created a visible boundary line for the two classes. However, LASSO and least squared were not capable of accurately creating the decision boundary with the few features. These algorithms had to make use of weakly correlated features in order to account for this. As a result, they did not generalize well. Two neural networks were trained to try to capture the decision boundary. First, a more automated neural network algorithm using Pytorch was used to study the impact of training the neural network on the oversampled data compared to the original data. This is outlined in [Neural Network Pytorch.pdf](https://github.com/lopezbl/ECE532_Project/blob/main/Neural%20Netwokr%20Pytorch.ipynb). It was found that using the original data and the oversampled data led to the same error. However, the neural network built on the oversampled had a higher accuracy on the hazardous class then the original data did. Considering the hazardous class is the more important to be highly accurate, the oversampling was used for parameter using the backpropagation code in [Neural Network Prop.ipynb](https://github.com/lopezbl/ECE532_Project/blob/main/Neural%20Netwokr%20Prop.ipynb). 
+
+The back propagation code in [Neural Network Prop.ipynb](https://github.com/lopezbl/ECE532_Project/blob/main/Neural%20Netwokr%20Prop.ipynb), first determines the behaviour of the neural network for all features. This model led to low accuracy for the hazardous class as the uncorrelated features make training the neural network difficult. Then the three important features and two important features were used to train a neural network at the same parameters. It was determined from this that two feature model was just as good at predicting as the three feature model. As a result, the two feature model was then used to understand and improve the parameters for back propagation. First the number of hidden nodes and epochs were set to be proportional while keeping the learning rate constant. This determined that 10 hidden nodes were optimal. Then the number of hidden nodes and epochs was kept constant and the learning rate was varied. The learning rate was found to be best in the 0.1 to 0.3 range and 0.2 was chosen. The final neural network was then trained at for 10 hidden nodes and a learning rate of 0.2. This led to an overall error of just 0.9% and 0.9% for the hazardous class and 0.8% for the other when tested on the original data. 
+
+The final neural network was then used to predict the test data. It had an overall error of just 0.2% with 0% for the hazardous class and 0.3% for the other. This means the neural network was able to accurately determine the decision boundary. 
+
+Pytorch Neural Net: [Neural Network Pytorch.pdf](https://github.com/lopezbl/ECE532_Project/blob/main/Neural%20Netwokr%20Pytorch.ipynb)
+
+Manual Neural Net: [Neural Network Prop.ipynb](https://github.com/lopezbl/ECE532_Project/blob/main/Neural%20Netwokr%20Prop.ipynb)
+
 ### 12/01/2020
 
 A project update was submitted with progess made thus far and a revised timeline for completion. 
