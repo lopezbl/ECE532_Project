@@ -1,5 +1,11 @@
 # Updates
 
+### 12/12/2020
+
+The final report, [Final Report.pdf](https://github.com/lopezbl/ECE532_Project/blob/main/Final%20Report.pdf), has been submitted.
+
+Final Report: [Final Report.pdf](https://github.com/lopezbl/ECE532_Project/blob/main/Final%20Report.pdf)
+
 ### 12/05/2020
 
 The final testing notebook, [Final Testing.ipynb](https://github.com/lopezbl/ECE532_Project/blob/main/Final%20Testing.ipynb), has been put together for the three algorithims. This summarizies the key results and reccomends the neural network for future classification uisng the "Absolute Magnitude" and "Minimum Orbit Intersection" as the only features. 
